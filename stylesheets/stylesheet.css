@@ -180,6 +180,10 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
+table, th, td {
+  border: 0px solid black;
+  vertical-align: top;
+}
 
 img {
   border: 0;
@@ -598,8 +602,7 @@ th {
 
 td {
   font-weight: 300;
-  text-align: center;
-  border: 1px solid #ebebeb;
+
 }
 
 form {
